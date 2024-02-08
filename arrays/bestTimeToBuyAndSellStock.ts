@@ -11,4 +11,3 @@ function maxProfit(prices: number[]): number {
 
 console.log(maxProfit([1, 2, 3, 4, 5]));
 
-
