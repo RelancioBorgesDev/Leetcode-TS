@@ -39,9 +39,9 @@ function removeNthFromEnd(head: ListNode | null, n: number): ListNode | null {
 
   for (let i = 1; i <= n + 1; i++) {
     if (fast === null) {
-      return head;
+      return phead.next;
     }
-    fast = fast.next;
+    fast = fast.next!;
   }
 
   while (fast !== null) {
@@ -51,7 +51,7 @@ function removeNthFromEnd(head: ListNode | null, n: number): ListNode | null {
 
   slow.next = slow.next!.next;
 
-  return null;
+  return phead;
 }
 
 removeNthFromEnd(head, 2);
