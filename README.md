@@ -1,15 +1,5 @@
-# leetcodets
+# LeetCode com TS
 
-To install dependencies:
+## **Soluções das questões Top Interview Questions**
 
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.0.23. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+- Easy Collection (***https://leetcode.com/explore/interview/card/top-interview-questions-easy/***)
