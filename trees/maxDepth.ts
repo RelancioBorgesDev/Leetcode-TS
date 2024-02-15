@@ -25,6 +25,6 @@ function maxDepth(root: TreeNode | null): number {
     return 0;
   }
 
-  return 1 + (maxDepth(root.left), maxDepth(root.right));
+  return 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
 }
 console.log(maxDepth(node1));
