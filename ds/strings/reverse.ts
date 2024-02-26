@@ -12,3 +12,5 @@ function reverse(x: number): number {
 
 console.log(reverse(1534236469));
 //80ms
+
+
